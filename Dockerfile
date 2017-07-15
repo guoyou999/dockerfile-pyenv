@@ -17,5 +17,6 @@ RUN yum upgrade -y && \
 	pyenv install 3.4.6 && \
 	pyenv install 3.5.3 && \
 	pyenv install 3.6.1 && \
-	pyenv install 3.7-dev 
+	pyenv install 3.7-dev    
+	
 
