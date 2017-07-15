@@ -3,7 +3,7 @@ FROM centos:centos6
 MAINTAINER Wu Weiwei "iphone1945@126.com"
 
 RUN yum upgrade -y && \
-	yum install -y net-tools git curl
+	yum install -y net-tools git && \
 	curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash && \
 	echo 'export PATH="/root/.pyenv/bin:$PATH"
 	eval "$(pyenv init -)"
