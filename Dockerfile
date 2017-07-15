@@ -9,7 +9,6 @@ RUN yum upgrade -y && \
 	echo 'eval "$(pyenv init -)"' >> ~/.bash_profile && \
 	echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile && \
 	source ~/.bash_profile && \
-	pyenv && \
 	pyenv install 2.7.13 && \
 	pyenv install 3.1.5 && \
 	pyenv install 3.2.6 && \
